@@ -9,7 +9,6 @@ body {
 	background-color: #333333;
 	padding: 0 40px;
 	margin: 0;
-	padding: 0;
 }
 
 /* basic text styles ----------------------------  */
@@ -23,7 +22,7 @@ h1 {
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
-	margin: 0:
+	margin: 0;
 }
 h2 {
 	font-size: 20px;
@@ -36,7 +35,7 @@ h3 {
 	letter-spacing: 0.5em;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
-	border-bottom-color: #f00;
+	border-bottom-color: #800000;
 	padding: 0 40px;
 	font-variant: small-caps;
 	font-style: italic;
@@ -45,12 +44,12 @@ h3 {
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #f00;
+	color: #800000;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #f00;
+	color: #800000;
 	text-decoration: none;
 }
 a:hover {
@@ -72,27 +71,27 @@ ol li {
 
 /* table styles -------------------------------------- */
 table {
-	border: solid #f00 1px;
+	border: solid #800000 1px;
 }
 td {
 	padding: 6px;
-	border: solid #f00 1px;
+	border: solid #800000 1px;
 }
 th {
 	font-weight: bold;
 	background-color: #eee;
 	text-align: center;
 	padding: 6px;
-	border: solid #f00 1px;
+	border: solid #800000 1px;
 }
 
 /* border styles ------------------------------------ */
 hr {
-	border: solid #f00 1px;
+	border: solid #800000 1px;
 }
 
 iframe {
-	border: solid #f00 1px;
+	border: solid #800000 1px;
 	padding: 8px;
 	margin: 8px;
 }
@@ -109,7 +108,7 @@ iframe {
 #header { 
 	width: 100%; 
 	background-color: #EEE;
-	border-bottom: 1px solid #f00;
+	border-bottom: 1px solid #800000;
 }
 #content { 
 	width: 600px;
@@ -122,7 +121,7 @@ iframe {
 	margin-top: 50px;
 	margin-right: 20px;
 	background: #eee;
-	border: 1px solid #ff0000;
+	border: 1px solid #800000;
 	border-radius: 12px;
 	box-shadow: 10px 10px 5px #888888;
 }
@@ -134,7 +133,7 @@ iframe {
 	clear: both;
 	width: 100%; 
 	background-color: #EEE;
-	border-top: 1px solid #f00;
+	border-top: 1px solid #800000;
 }
 #footer p {
 	margin: 0;
