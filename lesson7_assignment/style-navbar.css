@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+/* TABBED NAVIGATION */
+#navbar{
+	width: 100%; /* as wide as container - make sure buttons don't exceed container width */
+	/* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
+	height: 45px;
+	overflow: hidden; /* necessary for tab style nav bar to hide bottom of buttons */
+	margin-bottom: 0px; /* pushes page content down */
+}	
+
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	margin-left: -80px; /* controls space between buttons/tabs */
+} 
+ul#menu li a.button {
+	background-color: #fcf3ae; /* button/tab color */
+	color: #9b9744; /* font color */
+	font-size: 1em;
+	text-decoration: none; /* removes the link underline */
+	/* the padding define the size of the buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
+	padding: 6px 20px 25px 20px; 	
+	/* rounded corners turn buttons into tabs when bottom of button is hidden */
+	border-radius: 12px; 
+	border: solid 1px; /* 1-pixel border around buttons. */
+}
+/* styles for the currently selected page should be different to make it stand out */
+/* also you want to discourage users from clicking the button for the current page */
+ul#menu li a.button.selected{
+	background-color: #fff; /* matching the color of the content background color */
+	color: #000; /* font color */
+	font-style: italic;
+}
+/* visited link font colors */
+ul#menu li a.button:visited {
+	color: #9b9744;
+}  
+ul#menu li a.button:visited.selected{
+	color: #000;
+} 
+/* hover link styles */
+ul#menu li a.button:hover {
+	background-color: #9b9744;
+	color: #fcf3ae;
+} 
+/* selected button shouldn't change on hover */ 
+ul#menu li a.button:hover.selected{ 
+	background-color: #fff;
+	color: #000;
+} 
